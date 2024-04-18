@@ -19,7 +19,8 @@ function App() {
       <h1>Rasmlar</h1>
       <div className="image-container">
         <img src={image} alt="Tasodifiy" />
-      </div>
+       
+         </div>
       <button onClick={fetchRandomImage}>Submit</button>
     </div>
   );
